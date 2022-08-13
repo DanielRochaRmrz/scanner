@@ -1,0 +1,50 @@
+.cardSticky {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+ion-fab {
+    position: fixed;
+    bottom: 2rem;
+    right: 0.5rem;
+}
+
+.divQuantity {
+    width: 80%;
+}
+
+.gridQuantity {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-mini-fab {
+    background-color: #0070B3;
+}
+
+.mat-icon {
+    font-size: x-large;
+  }
+
+.mat-fab.mat-button-disabled:not([class*=mat-elevation-z]), .mat-mini-fab.mat-button-disabled:not([class*=mat-elevation-z]) {
+    background-color: #0070B3;
+    color: #ffff;
+    font-size: x-large;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.exportSkus {
+    width: 100%;
+}
